@@ -1,5 +1,14 @@
 # ID2223Lab2
-Questions related to the Lab:
-1. Which language do we use? If we use Chinese then we need to train our model for a long period of time due to the huge amount of data.
-However, if we use Swedish, we need to figure out how to verify the model (Find a Swedish speaking person or Find an audio file)
-2. What is the bonus task we would like to do?
+To Do:
+For Task 1:
+1. Gradio UI model.
+   - We need to add a text box so that we can put the URL related to the video we would like to transcribe.
+   - Store audio files behind URLs to Google Drive.
+   - Try to add some explanation about our GUI.
+2. Implement our our creative version.
+   - Get the audio from the microphone and then do transcription.
+   - Find a YouTube/Google Search API that will automatically turn the transcription into the search results.
+
+For Task 2:
+Answer the questions in Readme.md. Think about how to improve the performance of this model.
+
