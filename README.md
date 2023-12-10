@@ -3,7 +3,7 @@
 
 ## Description
 This lab is about Text Transcription using Transformers to your Mother Tongue. The overall framework of this lab is shown as follows.  
-<img alt="Framework" src="https://github.com/wenjianma/ID2223Lab2/old_tools/1.png"/>
+<img alt="Framework of this lab" src="1.png"/>
 ### Task 1
 The file framework of this repo:
 ```markdown
