@@ -24,7 +24,7 @@ Then, we build and run an inference pipeline with a [Gradio UI on Hugging Face S
 In this Gradio UI, we realize the following functions.
 1. Speak to Search.User can speak into the microphone about the video they want to search on YouTube.
 2. Crawl Video. Then, the web crawler implemented by us will return a list of URLs of the related videos on YouTube.
-3. Transcription. The audio of this video will be transcribed into text.
+3. Transcription. We can choose one URL and then the audio of this video will be transcribed into text.
 
 ### Model Improvement
 We think in the following two approaches.
