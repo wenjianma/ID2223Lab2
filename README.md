@@ -44,7 +44,11 @@ Second approach is data-centric approach, which is about identifying new data so
    However, due to the long time we need to train the model, we didn't change the model size in practice.
 
 ####  Data-Centric Approach
+Besides Common Voice dataset we used in this lab, we found out some useful dataset for mandarin transcription. Here are the links:
+- [AISHELL-1 Dataset](https://www.openslr.org/33/) 
+- [WenetSpeech Dataset](https://paperswithcode.com/dataset/wenetspeech) 
 
+However, due to the time restriction, we didn't use these two datasets in practice. 
 
 ## Contributor
 This repo is contributed by [Tianyu Deng](https://github.com/dengty1998) and [Wenjian Ma](https://github.com/wenjianma)
