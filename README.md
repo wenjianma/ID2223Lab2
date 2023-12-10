@@ -2,15 +2,17 @@
 # ID2223 Lab2
 
 ## Description
-This lab is about Text Transcription using Transformers to your Mother Tongue.  
--> Insert one picture about the overall framework of our work.
+This lab is about Text Transcription using Transformers to your Mother Tongue. The overall framework of this lab is shown as follows.  
+<img alt="Framework" src="https://github.com/wenjianma/ID2223Lab2/old_tools/1.png"/>
 ### Task 1
 The file framework of this repo:
 ```markdown
 UI/
-|crawler.py --------------------------------------------- Gradio UI file
+|app.py ------------------------------------------------- Gradio UI file
 |requirements.txt --------------------------------------- Requirement file we need in UI
-|search_result.py --------------------------------------- Web Crawler
+|crawler.py --------------------------------------------- Web Crawler
+|audio_reader.py ---------------------------------------- Audio Reader
+old_tools/ ---------------------------------------------- Old version
 README.md  ---------------------------------------------- Readme file
 whisper_mandarin_feature_pipeline.ipynb ----------------- Feature pipeline of whisper_mandarin
 whisper_mandarin_training_pipeline.ipynb ---------------- Training pipeline of whisper_mandarin
