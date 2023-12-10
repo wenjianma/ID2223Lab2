@@ -4,7 +4,7 @@
 ## Description
 This lab is about Text Transcription using Transformers to your Mother Tongue. The overall framework of this lab is shown as follows.  
 <img alt="Framework of this lab" src="1.png"/>
-### Task 1
+### Framework
 The file framework of this repo:
 ```markdown
 UI/
@@ -18,16 +18,16 @@ whisper_mandarin_feature_pipeline.ipynb ----------------- Feature pipeline of wh
 whisper_mandarin_training_pipeline.ipynb ---------------- Training pipeline of whisper_mandarin
 ```
 
-In this task, we first fine-tune a pretrained  transformer model [Whisper provided by openai](https://openai.com/research/whisper) for mandarin.
+In this lab, we first fine-tune a pretrained  transformer model [Whisper provided by openai](https://openai.com/research/whisper) for mandarin.
 The Word Error Rate (WER) we get after multiple training sessions is 109.
 Then, we build and run an inference pipeline with a [Gradio UI on Hugging Face Spaces](https://huggingface.co/spaces/Dengty/Mandarin) for our model. 
 In this Gradio UI, we realize the following functions.
-1. Speak to Search.User can speak into the microphone about the video they want to search on Youtube.
+1. Speak to Search.User can speak into the microphone about the video they want to search on YouTube.
 2. Crawl Video. Then, the web crawler implemented by us will return a URL to the video.
 3. Transcription. The audio of this video will be transcribed into text.
 
-### Task 2
-In this task, we first explore how can we improve the model performance. We think in the following two approaches.
+### Model Improvement
+We think in the following two approaches.
 First approach is model-centric approach, which is about tuning hyperparamters, changing the fine-tuning model architecture.
 Second approach is data-centric approach, which is about identifying new data sources enabling to train a better model.
 #### Model-Centric Approach
